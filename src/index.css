@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-clr-1: #F9F9F8;
+    --primary-clr-2: #22BB9C;
+    --primary-clr-3: #218D79;
+    --primary-clr-4: ;
+
+    --secondary-clr-1: #181A20;
+    --secondary-clr-2: #1C1E25;
+    --secondary-clr-3: #1A252A;
+    --secondary-clr-4: ;
+}

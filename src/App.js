@@ -1,15 +1,14 @@
-import { ThemeProvider } from "styled-components";
-import ProductReviewCard from "./components/product_review_card/ProductReviewCard";
-import GlobalStyles from "./styles/GlobalStyles";
-import Theme from "./styles/Theme";
+import ProductReviewCard from './components/ProductReviewCard/ProductReviewCard';
+import './index.css';
+
+
 
 function App() {
   return (
-    <ThemeProvider theme={Theme}>
-      <GlobalStyles />
+    <div className="w-full min-h-screen flex flex-col justify-center bg-[#352F44]">
       <ProductReviewCard />
-    </ThemeProvider>
-  );
+    </div>
+  )
 }
 
 export default App;
